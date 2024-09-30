@@ -38,11 +38,11 @@ body {
 
 .btn-primary {
   color: #fff;
-  background: #16a083;
+  background: #21a88b;
 }
 
 .btn-primary:hover {
-  background: #117964;
+  background: #f81616;
   transition: background 0.3s ease-in-out;
 }
 
@@ -93,7 +93,7 @@ body {
 }
 
 .menu-items a:hover {
-  color: #117964;
+  color: #ffee00;
   transition: color 0.3s ease-in-out;
 }
 
@@ -108,8 +108,8 @@ body {
 .showcase-area {
   height: 50vh;
   background: linear-gradient(
-      rgba(240, 240, 240, 0.144),
-      rgba(255, 255, 255, 0.336)
+      rgba(137, 164, 236, 0.144),
+      rgba(122, 139, 238, 0.336)
     ),
     url("https://i.postimg.cc/wT3TQS3V/header-image2.jpg");
   background-size: cover;
@@ -135,7 +135,7 @@ body {
 
 #about {
   padding: 50px 0;
-  background: #f5f5f7;
+  background: #d1d7e9;
 }
 
 .about-wrapper {
@@ -338,7 +338,7 @@ body {
   text-align: center;
   font-size: 2.8rem;
   font-weight: 400;
-  color: #555;
+  color: #474747;
 }
 
 .testimonial-container {
@@ -640,11 +640,22 @@ body {
     height: 50vmax;
   }
 }
+
 @media screen and ( max-width: 600px){
   
   h1{
     font-size: 36px;
     line-height: 50px;
   }
+   .side-bar{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(#00545d, #000729);
+    position: absolute;
+    right: 0;
+    top: 0;
+   }
+
   
 } 
+  
